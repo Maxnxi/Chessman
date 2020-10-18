@@ -15,6 +15,9 @@
 		B9556702253BD19700527992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9556700253BD19700527992 /* LaunchScreen.storyboard */; };
 		B955670D253BD19700527992 /* ChessmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955670C253BD19700527992 /* ChessmanTests.swift */; };
 		B9556718253BD19700527992 /* ChessmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9556717253BD19700527992 /* ChessmanUITests.swift */; };
+		B9810918253BE1F400962145 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9810917253BE1F400962145 /* MainVC.swift */; };
+		B9810920253BE21400962145 /* SinglePlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B981091F253BE21400962145 /* SinglePlayVC.swift */; };
+		B9810926253BE42F00962145 /* Chessman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9810925253BE42F00962145 /* Chessman.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B9556713253BD19700527992 /* ChessmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9556717253BD19700527992 /* ChessmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessmanUITests.swift; sourceTree = "<group>"; };
 		B9556719253BD19700527992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9810917253BE1F400962145 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		B981091F253BE21400962145 /* SinglePlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayVC.swift; sourceTree = "<group>"; };
+		B9810925253BE42F00962145 /* Chessman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chessman.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		B95566F4253BD19400527992 /* Chessman */ = {
 			isa = PBXGroup;
 			children = (
+				B9810924253BE40A00962145 /* Utilities */,
 				B955672E253BD1D700527992 /* Constants */,
 				B955672D253BD1CE00527992 /* Controller */,
 				B955672C253BD1C700527992 /* View */,
@@ -149,6 +156,8 @@
 		B955672D253BD1CE00527992 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B9810917253BE1F400962145 /* MainVC.swift */,
+				B981091F253BE21400962145 /* SinglePlayVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -158,6 +167,14 @@
 			children = (
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		B9810924253BE40A00962145 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B9810925253BE42F00962145 /* Chessman.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +308,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B95566FA253BD19400527992 /* ViewController.swift in Sources */,
+				B9810926253BE42F00962145 /* Chessman.swift in Sources */,
+				B9810918253BE1F400962145 /* MainVC.swift in Sources */,
 				B95566F6253BD19400527992 /* AppDelegate.swift in Sources */,
+				B9810920253BE21400962145 /* SinglePlayVC.swift in Sources */,
 				B95566F8253BD19400527992 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
